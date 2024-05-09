@@ -1,0 +1,9 @@
+Suppose that points is an array of 10 components of type double, and 
+points = {9.9, 9.6, 8.5, 8.5, 7.8, 7.7, 6.5, 5.8, 5.8, 4.6}
+The following is supposed to ensure that the elements of points are in 
+nonincreasing order. What is the output of this code? There are errors 
+in the code. Find and correct the errors. (1, 2, 3)
+for (int i = 0; i < 10; i++)
+ if (points[i + 1] >= points[i])
+ cout << "points[" << i << "] and points[" << (i + 1)
+ << "] are out of order." << endl
